@@ -1,0 +1,17 @@
+.list {
+    background-color: white;
+    margin: 2px;
+    padding: 0px;
+    list-style: none;
+    width: 90px;
+    height: auto;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+li {
+    padding: 5px;
+}
+

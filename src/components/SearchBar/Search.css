@@ -1,0 +1,65 @@
+.searchContainer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin: 40px 50px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dropdown {
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-btn {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.08);
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.dropdown .dropdown-content {
+    width: 270px;
+    height: 100px;
+    overflow-y: scroll;
+    position: absolute;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.08);
+    color: darkblue;
+    
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px lightgray;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 4px;
+}
+  
+.dropdown-item {
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    background-color: lightgray;
+}
+
+h2 {
+    color: orangered;
+}
