@@ -8,12 +8,12 @@ export default function Navigation() {
         <ul className='list'>
             <li>
                 <a href='home'>
-                    <img src={logo} alt="logo"/>
+                    <img className='image' src={logo} alt="logo"/>
                 </a>
             </li>
             <li>
                 <a href='time'>
-                    <img src={time} alt="time"/>
+                    <img className='image' src={time} alt="time"/>
                 </a>
             </li>
         </ul>

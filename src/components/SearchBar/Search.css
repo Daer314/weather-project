@@ -63,3 +63,18 @@
 h2 {
     color: orangered;
 }
+
+@media (max-width: 600px) {
+    .dropdown {
+      width: 150px;
+    }
+
+    .dropdown .dropdown-content {
+        width: 120px;
+        height: 50px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+  }

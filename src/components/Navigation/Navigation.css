@@ -15,3 +15,11 @@ li {
     padding: 5px;
 }
 
+@media (max-width: 600px) {
+    .list {
+        width: 50px;
+    }
+    .image {
+        width: 40px;
+    }
+  }

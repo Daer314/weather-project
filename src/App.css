@@ -28,3 +28,9 @@ body {
   margin-top: 70px;
   font-weight: 500;
 }
+
+@media (max-width: 600px) {
+  .select-city{
+    font-size: large;
+  }
+}
